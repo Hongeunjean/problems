@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-	int sub = 0;
+	unsigned int sub = 0;
 	float* point, mean = 0, sum = 0, max = 0;
 	scanf_s("%d", &sub);
 	point = (float*)calloc(sub, sizeof(float));
